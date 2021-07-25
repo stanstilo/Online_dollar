@@ -1,0 +1,35 @@
+{
+  "name": "ZingerPay",
+  "description": "Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Database.Activities": "[1.2.6863.32528]",
+    "Microsoft.Activities": "[1.0.1]",
+    "UiPath.System.Activities": "[18.4.2]",
+    "UiPath.UIAutomation.Activities": "[18.4.3]",
+    "UiPath.Excel.Activities": "[2.5.0]",
+    "UiPath.Mail.Activities": "[1.3.0]",
+    "UiPath.Vision": "[1.2.0]",
+    "UiPath.WebAPI.Activities": "[1.3.0]",
+    "UiPath.Word.Activities": "[1.3.0]",
+    "UiPath": "[10.0.6929.25268]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.4.0.6",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
